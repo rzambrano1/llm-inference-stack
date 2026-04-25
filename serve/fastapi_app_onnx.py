@@ -1,3 +1,4 @@
+# Run: $uvicorn serve.fastapi_app_onnx:app --host 0.0.0.0 --port 8000
 # Access in browser at: http://localhost:8000/docs
 
 from fastapi import FastAPI
