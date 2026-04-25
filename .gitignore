@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+
+# ONNX exported models (large binary files — store with Git LFS or HuggingFace Hub instead)
+model_onnx/
+model_onnx_quantized/
+
+# HuggingFace model cache (downloaded weights)
+~/.cache/huggingface/
+.cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables (API keys, secrets)
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
