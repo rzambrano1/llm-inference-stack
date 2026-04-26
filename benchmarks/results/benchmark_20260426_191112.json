@@ -1,0 +1,116 @@
+[
+  {
+    "server": "fastapi",
+    "results": [
+      {
+        "prompt": "Once upon a time there was a dog that learned how to make fancy burgers from talking to famous chefs",
+        "output_tokens": 67.0,
+        "latency_sec": 1.6716,
+        "ttft_sec": 1.6716,
+        "tpot_msec": 24.09,
+        "tokens_per_second": 43.31,
+        "ram_used_mb": 11.75,
+        "peak_ram_mb": 1554.46,
+        "output": "Once upon a time there was a dog that learned how to make fancy burgers from talking to famous chefs like George Clooney. The other day, an elderly lady named Nancy decided it would be fun for her two kids if they could find some of the first crackers she ever made at home in San Jose - and brought this recipe with them on their own journey through town as part 'Grandpa's Belly' adventure...\n- You've got yourself into classic American food: meatballs (or"
+      },
+      {
+        "prompt": "Isaac Asimov was right about the future of robots artificial intelligence",
+        "output_tokens": 87.0,
+        "latency_sec": 1.5191,
+        "ttft_sec": 1.5191,
+        "tpot_msec": 17.46,
+        "tokens_per_second": 57.31,
+        "ram_used_mb": 0.56,
+        "peak_ram_mb": 1556.03,
+        "output": "Isaac Asimov was right about the future of robots artificial intelligence, and so he had to say something.\nThe last thing I want is for a robot that's too powerful just yet be able show us what it can do tomorrow or how we might use their powers in some way \u2014 maybe with lasers instead of electronics? Or perhaps they're only going to need more data after all because humans have come out ahead now by an amount comparable to our own ability: 100 percent accuracy! Let me imagine"
+      },
+      {
+        "prompt": "In a galaxy far far away Dom Cobb was trying to impland an idea into someone's dream, the idea read 42",
+        "output_tokens": 76.0,
+        "latency_sec": 1.3475,
+        "ttft_sec": 1.3475,
+        "tpot_msec": 17.73,
+        "tokens_per_second": 56.43,
+        "ram_used_mb": 0.06,
+        "peak_ram_mb": 1556.47,
+        "output": "In a galaxy far far away Dom Cobb was trying to impland an idea into someone's dream, the idea read 42 words across. In other galaxies he'd written one million different possible meanings and over half of them had nothing in common with anything ever heard before or since \u2014 something that could be called genius if you really wanted to talk about it.\"\n: \"I want your thoughts on this piece!\" said Marco as they stood up from their seats by hand for our chance encounter at his desk after"
+      }
+    ]
+  },
+  {
+    "server": "bentoml",
+    "results": [
+      {
+        "prompt": "Once upon a time there was a dog that learned how to make fancy burgers from talking to famous chefs",
+        "output_tokens": 80.0,
+        "latency_sec": 1.5884,
+        "ttft_sec": 1.5884,
+        "tpot_msec": 19.85,
+        "tokens_per_second": 51.65,
+        "ram_used_mb": 11.69,
+        "peak_ram_mb": 1588.49,
+        "output": "Once upon a time there was a dog that learned how to make fancy burgers from talking to famous chefs. It came in two varieties -- the first being known as \"the Great White Way\" and called for its consumption of meat, vegetables or fish instead ...\nHere is an excerpt: In order we all understand some things (though I like others) it must be necessary that any question about which way humans are doing business should not require answering by saying something such good news can never happen without giving out"
+      },
+      {
+        "prompt": "Isaac Asimov was right about the future of robots artificial intelligence",
+        "output_tokens": 87.0,
+        "latency_sec": 1.4802,
+        "ttft_sec": 1.4802,
+        "tpot_msec": 17.01,
+        "tokens_per_second": 58.78,
+        "ram_used_mb": 0.44,
+        "peak_ram_mb": 1589.8,
+        "output": "Isaac Asimov was right about the future of robots artificial intelligence. (Photo: Courtesy of NASA)\n . The first robot designed to recognize people and understand their emotions has already been created, he says \u2013 but at this stage in his career there are still many other opportunities for engineers like him.\"There is no one on earth who would agree with us,\" said Astrid Eversenhaug-Lefevrekner from California's National Science Foundation before she called out that \""
+      },
+      {
+        "prompt": "In a galaxy far far away Dom Cobb was trying to impland an idea into someone's dream, the idea read 42",
+        "output_tokens": 76.0,
+        "latency_sec": 1.3435,
+        "ttft_sec": 1.3435,
+        "tpot_msec": 17.68,
+        "tokens_per_second": 56.6,
+        "ram_used_mb": 0.06,
+        "peak_ram_mb": 1590.49,
+        "output": "In a galaxy far far away Dom Cobb was trying to impland an idea into someone's dream, the idea read 42:00.\n\nHis brain told him it could use some of his \"special insight\" or that there were things he couldn't explain (such as how life is all about space). He gave up on getting involved in science and just had this one last minute chance at thinking something good out loud! So we see nothing but blank stares coming back from what looked like everyone has"
+      }
+    ]
+  },
+  {
+    "server": "triton",
+    "results": [
+      {
+        "prompt": "Once upon a time there was a dog that learned how to make fancy burgers from talking to famous chefs",
+        "output_tokens": 100.0,
+        "latency_sec": 11.2553,
+        "ttft_sec": 11.2553,
+        "tpot_msec": 112.55,
+        "tokens_per_second": 8.89,
+        "ram_used_mb": 25.73,
+        "peak_ram_mb": 275.96,
+        "output": "Once upon a time there was a dog that learned how to make fancy burgers from talking to famous chefs on the internet.\n\nRecent Examples on the Web\n\nIts that irresistible depth, perhaps, that makes it irresistible. Herbert Sutton, GQ, \"Is Amazon's young adult novel The Walking Dead Movie just trendy anymore?\" 2 July 2018\n\nRandall also celebrated for showing off his trademark light armor, and evidently appreciated it given the wild empiricism of his aesthetic. Palmer, BostonGlobe.com, \"Rendering Alex Gonzalez's A Portrait of Art in the Perils"
+      },
+      {
+        "prompt": "Isaac Asimov was right about the future of robots artificial intelligence",
+        "output_tokens": 100.0,
+        "latency_sec": 10.2618,
+        "ttft_sec": 10.2618,
+        "tpot_msec": 102.62,
+        "tokens_per_second": 9.75,
+        "ram_used_mb": 21.49,
+        "peak_ram_mb": 274.69,
+        "output": "Isaac Asimov was right about the future of robots artificial intelligence, as well as the fact that there is no AI for now, so you still have to fend for yourself. The other issue is that most people still tend to see smart machines as part of the future, and AI as the future. So if you're a robot developer, you're going to have friends and relatives, and if you have a dream and you want to invest or create something, I have a good bet you will enjoy that chance. You don't get the chance to build a"
+      },
+      {
+        "prompt": "In a galaxy far far away Dom Cobb was trying to impland an idea into someone's dream, the idea read 42",
+        "output_tokens": 100.0,
+        "latency_sec": 12.0472,
+        "ttft_sec": 12.0472,
+        "tpot_msec": 120.47,
+        "tokens_per_second": 8.31,
+        "ram_used_mb": 23.6,
+        "peak_ram_mb": 276.86,
+        "output": "In a galaxy far far away Dom Cobb was trying to impland an idea into someone's dream, the idea read 42:58. You have to measure the parts with the magnifying-glass, as this is not a very normal citation but it is placed. Try and dump that into the normal section, they will have no idea. This sentence is said to be about 30 generations old. As you will see, I suppose it is also a reference to Genesis 2001.18 In the same sentence is said \"One day the ancient Elders will return\" and 12:12. This might be something like this:"
+      }
+    ]
+  }
+]

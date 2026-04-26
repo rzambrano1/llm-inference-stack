@@ -1,0 +1,26 @@
+# Start all three servers
+docker-compose up -d
+
+# Or start them individually
+docker-compose up fastapi
+docker-compose up bentoml
+docker-compose up triton
+
+# Then either run:
+    - python benchmarks/run_benchmark.py
+    - docker-compose --profile benchmark up benchmark <--- This one is actually not running :(
+
+# Check logs to troubleshoot
+    - docker-compose logs fastapi
+    - docker-compose logs bentoml
+    - docker-compose logs triton
+
+# Check status with:
+
+docker-compose ps
+
+# To check services are reachable:
+
+curl http://localhost:8000/health
+curl http://localhost:3000/healthz
+curl http://localhost:8001/v2/health/ready

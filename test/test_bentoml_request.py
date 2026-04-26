@@ -5,7 +5,7 @@ response = requests.post(
     json={
         "request": {
             "prompt": "Once upon a time there was a dog that could pilot helicopters",
-        "max_new_tokens": 100
+            "max_new_tokens": 100
         }
     }
 )

@@ -52,7 +52,6 @@
 # ---------------------------------------------------------------------------
 
 import tritonclient.http as httpclient
-
 from transformers import AutoTokenizer
 
 import numpy as np
