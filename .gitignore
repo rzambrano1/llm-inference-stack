@@ -29,3 +29,11 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Triton
+model_repository/**/1/*.onnx
+model_repository/**/1/*.bin
+model_repository/**/1/*.pth
+model_repository/**/1/*
+model_repository/gpt2_onnx/*.json
+model_repository/gpt2_onnx/merges.txt
