@@ -1,0 +1,72 @@
+LLM Inference Stack Benchmark
+Model: GPT-2 (117M) | Prompts: 3 | Runs/prompt: 3
+Servers: ['fastapi', 'bentoml', 'triton']
+
+============================================================
+  Benchmarking: FASTAPI
+============================================================
+
+  Prompt: "Once upon a time there was a dog that learned how ..."
+    Run 1/3 --> 47.36 tok/s | latency 1.6893s
+    Run 2/3 --> 31.76 tok/s | latency 2.5187s
+    Run 3/3 --> 50.82 tok/s | latency 0.8068s
+
+  Prompt: "Isaac Asimov was right about the future of robots ..."
+    Run 1/3 --> 59.33 tok/s | latency 1.4663s
+    Run 2/3 --> 56.86 tok/s | latency 1.5302s
+    Run 3/3 --> 55.74 tok/s | latency 1.5608s
+
+  Prompt: "In a galaxy far far away Dom Cobb was trying to im..."
+    Run 1/3 --> 54.69 tok/s | latency 1.3895s
+    Run 2/3 --> 57.66 tok/s | latency 1.3181s
+    Run 3/3 --> 56.93 tok/s | latency 1.335s
+
+============================================================
+  Benchmarking: BENTOML
+============================================================
+
+  Prompt: "Once upon a time there was a dog that learned how ..."
+    Run 1/3 --> 40.74 tok/s | latency 1.9635s
+    Run 2/3 --> 57.29 tok/s | latency 1.3964s
+    Run 3/3 --> 56.93 tok/s | latency 1.4052s
+
+  Prompt: "Isaac Asimov was right about the future of robots ..."
+    Run 1/3 --> 57.88 tok/s | latency 1.503s
+    Run 2/3 --> 59.3 tok/s | latency 1.4671s
+    Run 3/3 --> 59.16 tok/s | latency 1.4706s
+
+  Prompt: "In a galaxy far far away Dom Cobb was trying to im..."
+    Run 1/3 --> 56.14 tok/s | latency 1.3539s
+    Run 2/3 --> 58.42 tok/s | latency 1.301s
+    Run 3/3 --> 55.25 tok/s | latency 1.3755s
+
+============================================================
+  Benchmarking: TRITON
+============================================================
+
+  Prompt: "Once upon a time there was a dog that learned how ..."
+    Run 1/3 --> 8.87 tok/s | latency 11.28s
+    Run 2/3 --> 8.8 tok/s | latency 11.3636s
+    Run 3/3 --> 8.99 tok/s | latency 11.1222s
+
+  Prompt: "Isaac Asimov was right about the future of robots ..."
+    Run 1/3 --> 9.58 tok/s | latency 10.4332s
+    Run 2/3 --> 9.68 tok/s | latency 10.3316s
+    Run 3/3 --> 9.98 tok/s | latency 10.0207s
+
+  Prompt: "In a galaxy far far away Dom Cobb was trying to im..."
+    Run 1/3 --> 8.56 tok/s | latency 11.6868s
+    Run 2/3 --> 8.31 tok/s | latency 12.0316s
+    Run 3/3 --> 8.05 tok/s | latency 12.4232s
+
+
+============================================================
+  BENCHMARK SUMMARY
+============================================================
+  Server          tok/s   latency(s)    TTFT(s)   TPOT(ms)    RAM(MB)
+  ----------------------------------------------------------------
+  fastapi         52.35       1.5127     1.5127      19.76       4.12
+  bentoml         55.68       1.4707     1.4707      18.18       4.06
+  triton           8.98      11.1881    11.1881     111.88      23.61
+
+  Results saved --> benchmarks\results\benchmark_20260426_191112.json
