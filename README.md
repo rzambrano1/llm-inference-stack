@@ -100,9 +100,6 @@ Results are saved to `benchmarks/results/benchmark_TIMESTAMP.json`.
 | `latency_sec` | seconds | End-to-end request time |
 | `ttft_s` | seconds | Time to first token |
 | `tpot_msec` | ms/token | Average time per output token |
-| `ram_used_mb` | MB | Memory consumed per request |
-| `peak_ram_mb` | MB | Peak memory during inference |
-| `cpu_percent` | % | CPU utilization during inference |
  
 > **Note:** Triton returns a real TTFT because generation runs token-by-token on the client. FastAPI and BentoML return TTFT ≈ e2e latency since they generate all tokens before returning.
 
