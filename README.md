@@ -71,10 +71,10 @@ docker-compose up
 ```
  
 Ports:
-- FastAPI → `http://localhost:8000` (Swagger UI: `/docs`)
-- BentoML → `http://localhost:3000`
-- Triton HTTP → `http://localhost:8001`
-- Triton Metrics → `http://localhost:8003`
+- FastAPI --> `http://localhost:8000` (Swagger UI: `/docs`)
+- BentoML --> `http://localhost:3000`
+- Triton HTTP --> `http://localhost:8001`
+- Triton Metrics --> `http://localhost:8003`
 
 ## Running the Benchmark
  
