@@ -1,5 +1,6 @@
 # Run: $bentoml serve serve.bentoml_onnx_service:GPT2OnnxService --port 3000
-# Access in browser at: http://localhost:3000/docs
+# Access in browser at: http://localhost:3000             <--- main UI (Swagger-like interface)
+#                       http://localhost:3000/docs.json   <---  OpenAPI spec
 
 import bentoml
 from pydantic import BaseModel
